@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JS Assignment 2</title>
+    <style>
+        body {
+            font-family: Arial;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .box {
+            border: 1px solid #000;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        input, button {
+            padding: 5px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>JavaScript Operations</h1>
+
+<!-- 1. Even Numbers -->
+<div class="box">
+    <h3>1. Even Numbers (1 to 100)</h3>
+    <button onclick="showEven()">Show Even Numbers</button>
+    <p id="even"></p>
+</div>
+
+<!-- 2. Calculator -->
+<div class="box">
+    <h3>2. Calculator</h3>
+    <input type="number" id="num1" placeholder="Enter number 1"><br>
+    <input type="number" id="num2" placeholder="Enter number 2"><br>
+    <input type="text" id="op" placeholder="Operator (+ - * /)"><br>
+    <button onclick="doCalc()">Calculate</button>
+    <p id="calc"></p>
+</div>
+
+<!-- 3. Tax Calculation -->
+<div class="box">
+    <h3>3. Tax Calculation</h3>
+    <input type="number" id="salary" placeholder="Enter salary"><br>
+    <button onclick="calcTax()">Calculate Tax</button>
+    <p id="tax"></p>
+</div>
+
+<!-- 4. Digit Product -->
+<div class="box">
+    <h3>4. Digit Product</h3>
+    <input type="number" id="n1" placeholder="Enter n1"><br>
+    <input type="number" id="n2" placeholder="Enter n2"><br>
+    <button onclick="calcDigit()">Calculate</button>
+    <p id="digit"></p>
+</div>
+
+<script src="assignment2.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f6f8;   /* light grey */
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50;   /* dark blue */
+    }
+
+    .box {
+        background-color: #ffffff;
+        border-left: 5px solid #3498db;  /* blue accent */
+        padding: 15px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    button {
+        background-color: #3498db;
+        color: white;
+        border: none;
+        padding: 7px 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+
+    button:hover {
+        background-color: #217dbb;
+    }
+
+    input {
+        padding: 6px;
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    p {
+        margin-top: 10px;
+        color: #333;
+        font-weight: bold;
+    }
+</style>
